@@ -39,16 +39,6 @@ Abra [http://localhost:4200](http://localhost:4200). O proxy do Angular encaminh
 
 Envie nome, categoria e quantidade inteira não negativa no cadastro e na edição. As rotas de produtos exigem Authorization: Bearer <token>. Dados inválidos retornam 400, credenciais ou token inválidos retornam 401 e um produto inexistente retorna 404.
 
-## Roteiro de apresentação
-
-1. Apresente o problema e o público-alvo descritos acima.
-2. Tente acessar /produtos sem sessão. Demonstre a senha incorreta e depois entre com as credenciais válidas.
-3. Na listagem, abra o cadastro, mostre a validação e salve um produto.
-4. Confira os detalhes, abra a edição e altere a quantidade.
-5. Reinicie o backend, entre novamente e confira a quantidade atualizada.
-6. Volte à listagem, cancele uma exclusão e depois confirme. Mostre a mensagem de sucesso.
-7. Saia do sistema e tente voltar à listagem.
-
 
 ## Arquitetura do backend
 
